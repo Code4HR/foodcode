@@ -3,9 +3,9 @@ GEM
   specs:
     colorize (0.7.3)
     json (1.8.1)
-    mini_portile (0.6.0)
-    nokogiri (1.6.2.1)
-      mini_portile (= 0.6.0)
+    mini_portile2 (2.3.0)
+    nokogiri (1.8.5)
+      mini_portile2 (~> 2.3.0)
     stopwords (0.2)
 
 PLATFORMS
@@ -14,5 +14,8 @@ PLATFORMS
 DEPENDENCIES
   colorize
   json
-  nokogiri
+  nokogiri (>= 1.8.5)
   stopwords
+
+BUNDLED WITH
+   1.16.6
